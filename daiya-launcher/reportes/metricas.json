@@ -1,0 +1,73 @@
+{
+  "Añadir mod (.jar, 4 KB)": {
+    "n": 200,
+    "media_ms": 2.921,
+    "p95_ms": 4.246,
+    "max_ms": 6.593
+  },
+  "Añadir shader (.zip)": {
+    "n": 200,
+    "media_ms": 2.746,
+    "p95_ms": 3.565,
+    "max_ms": 8.006
+  },
+  "Añadir resource pack (.zip)": {
+    "n": 200,
+    "media_ms": 2.731,
+    "p95_ms": 3.343,
+    "max_ms": 3.961
+  },
+  "Rechazar mod incompatible": {
+    "n": 200,
+    "media_ms": 0.15,
+    "p95_ms": 0.196,
+    "max_ms": 0.433
+  },
+  "Añadir mod grande (20 MB, 2.000 entradas)": {
+    "n": 30,
+    "media_ms": 66.378,
+    "p95_ms": 72.556,
+    "max_ms": 96.977
+  },
+  "Activar / desactivar add-on": {
+    "n": 200,
+    "media_ms": 1.228,
+    "p95_ms": 2.013,
+    "max_ms": 4.171
+  },
+  "Crear instancia (carpetas + SQLite)": {
+    "n": 100,
+    "media_ms": 1.324,
+    "p95_ms": 1.907,
+    "max_ms": 2.224
+  },
+  "Apertura de la ventana principal": {
+    "n": 1,
+    "media_ms": 403.6
+  },
+  "_clasificacion": {
+    "archivos": 55,
+    "aciertos": 55,
+    "tasa_error_pct": 0.0,
+    "falsos_positivos": 0,
+    "falsos_negativos": 0
+  },
+  "_carga": {
+    "100": {
+      "listar_ms": 0.268,
+      "verificar_integridad_ms": 2.3,
+      "ok": 100
+    },
+    "300": {
+      "listar_ms": 0.764,
+      "verificar_integridad_ms": 6.5,
+      "ok": 300
+    },
+    "500": {
+      "listar_ms": 1.472,
+      "verificar_integridad_ms": 12.3,
+      "ok": 500
+    },
+    "throughput_addons_por_s": 347.1
+  }
+}

@@ -1,0 +1,22 @@
+[project]
+name = "daiya-launcher"
+version = "0.1.0a0"
+description = "Launcher de Minecraft Java Edition con gestión segura de mods, shaders y resource packs"
+requires-python = ">=3.11"
+
+[tool.ruff]
+line-length = 120
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "N", "B", "S"]
+ignore = [
+  "S101",  # assert en pruebas
+  "S603",  # subprocess sin shell es intencional (lista de argumentos)
+  "N815",  # las señales de Qt usan camelCase por convención del framework
+  "N818",  # excepciones nombradas en español con prefijo "Error"
+]
+
+[tool.coverage.run]
+source = ["daiya"]
+omit = ["daiya/ui/app.py"]

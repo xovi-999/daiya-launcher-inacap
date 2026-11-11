@@ -1,0 +1,21 @@
+============================= test session starts ==============================
+platform linux -- Python 3.13.16, pytest-9.2.0, pluggy-1.7.0 -- /usr/bin/python3
+rootdir: /tmp/claude-0/-home-claude/f00cf532-b6b6-5768-b38f-a356442083d5/scratchpad/daiya-launcher
+configfile: pytest.ini
+plugins: platformdirs-4.12.2, anyio-4.15.1, cov-7.1.0
+collecting ... collected 12 items
+
+tests/test_sin_conexion.py::test_uuid_igual_al_que_asigna_el_juego PASSED [  8%]
+tests/test_sin_conexion.py::test_perfil_valido_no_guarda_secretos PASSED [ 16%]
+tests/test_sin_conexion.py::test_nombres_invalidos_son_rechazados[] PASSED [ 25%]
+tests/test_sin_conexion.py::test_nombres_invalidos_son_rechazados[ab] PASSED [ 33%]
+tests/test_sin_conexion.py::test_nombres_invalidos_son_rechazados[aaaaaaaaaaaaaaaaa] PASSED [ 41%]
+tests/test_sin_conexion.py::test_nombres_invalidos_son_rechazados[con espacio] PASSED [ 50%]
+tests/test_sin_conexion.py::test_nombres_invalidos_son_rechazados[x;rm -rf /] PASSED [ 58%]
+tests/test_sin_conexion.py::test_nombres_invalidos_son_rechazados[../admin] PASSED [ 66%]
+tests/test_sin_conexion.py::test_nombres_invalidos_son_rechazados[\xf1and\xfa] PASSED [ 75%]
+tests/test_sin_conexion.py::test_nombres_invalidos_son_rechazados[--demo] PASSED [ 83%]
+tests/test_sin_conexion.py::test_cerrar_perfil_sin_conexion PASSED       [ 91%]
+tests/test_sin_conexion.py::test_comando_real_sin_conexion PASSED        [100%]
+
+============================== 12 passed in 0.18s ==============================
