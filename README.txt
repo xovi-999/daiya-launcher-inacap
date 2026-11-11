@@ -19,4 +19,3 @@ CÓMO EJECUTAR LAS PRUEBAS
   pip install -r requirements-dev.txt
   pytest --cov=daiya## Licencia
 
-Este proyecto se distribuye bajo la licencia Apache 2.0.
