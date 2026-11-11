@@ -18,4 +18,6 @@ CÓMO EJECUTAR (requiere Python 3.12 o superior)
 
 CÓMO EJECUTAR LAS PRUEBAS
   pip install -r requirements-dev.txt
-  pytest --cov=daiya
+  pytest --cov=daiya## Licencia
+
+Este proyecto se distribuye bajo la licencia Apache 2.0. Ver el archivo [LICENSE](LICENSE).
