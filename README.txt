@@ -3,7 +3,6 @@ TI3043 Ingeniería de Software · Vicente Espinoza y Francisco Tagle
 
 CONTENIDO
   Informe_Sumativa03_Daiya_Launcher.docx   Informe (Word)
-  Informe_Sumativa03_Daiya_Launcher.pdf    Mismo informe en PDF
   daiya-launcher/                          Código fuente del prototipo
       daiya/         aplicación (core, datos, servicios, ui, util)
       tests/         pruebas automatizadas (pytest)
